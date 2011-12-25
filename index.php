@@ -10,10 +10,11 @@
   <link rel="stylesheet" type="text/css" href="stylesheets/main.css" />
 
   <!-- slideshow -->
-  <link rel="stylesheet" type="text/css" href="slideshow/slideshow.css" media="screen" />
-  <script type="text/javascript" src="slideshow/mootools.js"></script>
-  <script type="text/javascript" src="slideshow/slideshow.js"></script>
-  <script type="text/javascript" src="slideshow/slideshow.kenburns.js"></script>
+  <link rel="stylesheet" type="text/css" href="Slideshow/css/slideshow.css" media="screen" />
+  <script type="text/javascript" src="Slideshow/js/mootools-1.3.2-core.js"></script>
+  <script type="text/javascript" src="Slideshow/js/mootools-1.3.2.1-more.js"></script>
+  <script type="text/javascript" src="Slideshow/js/slideshow.js"></script>
+  <script type="text/javascript" src="Slideshow/js/slideshow.kenburns.js"></script>
   <script type="text/javascript">
 //<![CDATA[
   window.addEvent('domready', function(){
@@ -25,7 +26,7 @@
       'DSC00426.JPG',
       'DSC00534.JPG'
     ];
-    var myShow = new Slideshow.KenBurns('show', data, {captions: false, deley: 5000, duration: 8000, height: 260, hu: 'photos/', width: 520, href: 'http://aiit.ac.jp/', random: true });
+    var myShow = new Slideshow.KenBurns('show', data, {controller: false, deley: 5000, duration: 8000, hu: 'photos/', width: 520, href: 'http://aiit.ac.jp/', random: true });
   });
 //]]>
   </script>
@@ -51,7 +52,7 @@
   <section>
     <!-- Slideshow -->
     <div>
-      <a href="/"><div id="show" class="slideshow"></div></a>
+      <a href="/"><div id="show" class="slideshow" style="margin: 0;"></div></a>
     </div>
   </section>
 
