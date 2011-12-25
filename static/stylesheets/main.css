@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-size: 90%;
+    font-family: "Meiryo", "Calibri", "Arial", "Verdana", "Geneva", "Helvetica", "sans-serif", "MS UI Gothic", "ＭＳ Ｐゴシック"; 
+    width: 520px;
+    text-align:left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+p { padding:5px 0px; }
+
+a { text-decoration:none; }
+
+ul { padding: 5px 5px 5px 20px; }
+
+em { color:red; font-style: normal; }
+
+blockquote {
+    margin: 5px;
+    padding: 5px;
+    background: #fffff6;
+    border: 1px solid #999999;
+}
+
+
