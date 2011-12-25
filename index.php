@@ -5,17 +5,15 @@
     産業技術大学院大学 / AIIT: Advanced Institute of Industrial Technology
   </title>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <meta name="author" content="IN.FIGHT" />
-  <link rel="shortcut icon" href="static/favicon.ico" type="image/vnd.microsoft.icon" />
 
   <!-- stylesheet -->
-  <link rel="stylesheet" type="text/css" href="static/stylesheets/main.css" />
+  <link rel="stylesheet" type="text/css" href="stylesheets/main.css" />
 
   <!-- slideshow -->
-  <link rel="stylesheet" type="text/css" href="static/slideshow/slideshow.css" media="screen" />
-  <script type="text/javascript" src="static/slideshow/mootools.js"></script>
-  <script type="text/javascript" src="static/slideshow/slideshow.js"></script>
-  <script type="text/javascript" src="static/slideshow/slideshow.kenburns.js"></script>
+  <link rel="stylesheet" type="text/css" href="slideshow/slideshow.css" media="screen" />
+  <script type="text/javascript" src="slideshow/mootools.js"></script>
+  <script type="text/javascript" src="slideshow/slideshow.js"></script>
+  <script type="text/javascript" src="slideshow/slideshow.kenburns.js"></script>
   <script type="text/javascript">
 //<![CDATA[
   window.addEvent('domready', function(){
@@ -28,7 +26,7 @@
       'DSC00426.JPG': { caption: 'AIIT' }, 
       'DSC00534.JPG': { caption: 'AIIT' }, 
     };
-    var myShow = new Slideshow.KenBurns('show', data, {captions: false, deley: 5000, duration: 8000, height: 260, hu: 'static/photos/', width: 520, href: 'http://aiit.ac.jp/', random: true });
+    var myShow = new Slideshow.KenBurns('show', data, {captions: false, deley: 5000, duration: 8000, height: 260, hu: 'photos/', width: 520, href: 'http://aiit.ac.jp/', random: true });
   });
 //]]>
   </script>
@@ -67,7 +65,7 @@
 
     <div class="fb-like" data-href="http://www.facebook.com/aiit.ac.jp" data-send="false" data-width="520" data-show-faces="true"></div>
     <p>
-      よろしければ↑の<img src="static/images/iine.png" />あるいは<img src="static/images/like.png" />
+      よろしければ↑の<img src="images/iine.png" />あるいは<img src="images/like.png" />
       を押してFacebookの本学公式ページに登録してください。ご登録いただくと以下のいいことがあります。
     </p>
     <ul>
