@@ -24,7 +24,7 @@
 /*      'DSC00414.JPG': { caption: 'AIIT' },  */
       'DSC00445.JPG': { caption: 'AIIT' }, 
       'DSC00426.JPG': { caption: 'AIIT' }, 
-      'DSC00534.JPG': { caption: 'AIIT' }, 
+      'DSC00534.JPG': { caption: 'AIIT' }
     };
     var myShow = new Slideshow.KenBurns('show', data, {captions: false, deley: 5000, duration: 8000, height: 260, hu: 'photos/', width: 520, href: 'http://aiit.ac.jp/', random: true });
   });
