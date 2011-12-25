@@ -17,15 +17,14 @@
   <script type="text/javascript">
 //<![CDATA[
   window.addEvent('domready', function(){
-    var data = {
-      'DSC00449.JPG': { caption: 'AIIT' }, 
-      'DSC00539.JPG': { caption: 'AIIT' }, 
-      'DSC00448.JPG': { caption: 'AIIT' }, 
-/*      'DSC00414.JPG': { caption: 'AIIT' },  */
-      'DSC00445.JPG': { caption: 'AIIT' }, 
-      'DSC00426.JPG': { caption: 'AIIT' }, 
-      'DSC00534.JPG': { caption: 'AIIT' }
-    };
+    var data = [
+      'DSC00449.JPG',
+      'DSC00539.JPG',
+      'DSC00448.JPG',
+      'DSC00445.JPG',
+      'DSC00426.JPG',
+      'DSC00534.JPG'
+    ];
     var myShow = new Slideshow.KenBurns('show', data, {captions: false, deley: 5000, duration: 8000, height: 260, hu: 'photos/', width: 520, href: 'http://aiit.ac.jp/', random: true });
   });
 //]]>
